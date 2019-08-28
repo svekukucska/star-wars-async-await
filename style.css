@@ -1,0 +1,77 @@
+body {
+    background: url('img/star-wars-background.jpg');
+}
+
+.stage {
+    background:rgba(255, 255, 255, 0.5);
+    width: 50%;
+    padding: 20px;
+    border: solid 5px;
+    border-color:  rgba(255, 255, 255, 0.911);
+    border-radius: 5px;
+}
+
+#spinner img {
+    transform: scale(0.5);
+}
+#spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.type {
+    color: rgba(204, 0, 0), 1;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.name {
+    color: rgba(59, 76, 202, 1);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 1);
+}
+.subtitle {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgba(229, 177, 58, 1);
+    font-style: italic;
+    padding: 8px 3px;
+}
+
+.items {
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 1);
+    font-style: normal;
+    padding: 10px 0;
+}
+strong {
+    font-weight: bold;
+}
+
+ul {
+    font-weight: bolder;
+    font-size: 20px;
+}
+li {
+    padding: 5px;
+}
+.home-link {
+    padding: 5px;
+}
+#movies-list > a {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 200%;
+}
+.title-list {
+    font-size: 18px;
+}
